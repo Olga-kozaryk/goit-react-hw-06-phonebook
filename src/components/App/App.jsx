@@ -1,8 +1,10 @@
 
+import ContactForm from "components/ContactForm/ContactForm";
 import { Container } from "./App.styled";
-import { ContactForm } from "components/ContactForm/ContactForm";
-import { Filter } from "components/Filter/Filter";
-import { ContactList } from "components/ContactList/ContactList";
+
+import ContactList from "components/ContactList/ContactList";
+import Filter from "components/Filter/Filter";
+
 
 export const App = () => { 
   return ( 

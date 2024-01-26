@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
-export const FilterLabel  = styled('label')(() => {
+export const Label  = styled('label')(() => {
     return {
       fontSize: '20px',
       
       input:{
-            marginLeft:' 20px',
+            padding: '10px',
             fontSize: '20px',
             borderRadius: '10px',
-            border: '1px solid #000',  
+            border: '1px solid #a264cb',  
           }
     }}
 )
